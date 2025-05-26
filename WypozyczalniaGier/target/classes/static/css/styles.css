@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     height: 100%;
+
 }
 
 header {
@@ -14,6 +15,10 @@ header {
     padding: 1rem 0;
     text-align: center;
     position: relative;
+    background-image: url(../images/Logo.png);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    background-size: 5%;
 }
 
 nav {
