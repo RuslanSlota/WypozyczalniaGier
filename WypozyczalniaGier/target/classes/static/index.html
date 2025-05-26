@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+    <title>Wypożyczalnia Gier Planszowych i Karcianych</title>
+</head>
+<body>
+<header>
+    <h1>Wypożyczalnia Gier Planszowych i Karcianych</h1>
+    <p>Zrelaksuj się przy najlepszych grach!</p>
+    <nav>
+        <div id="authButtons">
+            <script src="js/logbuttons.js"></script>
+            <a id="loginButton" href="/login.html">Zaloguj się</a>
+            <a id="registerButton" href="/register.html">Zarejestruj się</a>
+            <img id="logoutButton" src="/images/logout.png" alt="Wyloguj się" style="display: none; cursor: pointer;" width="40" height="40">
+        </div>
+    </nav>
+</header>
+
+<div id="categoryButtons">
+    <link rel="stylesheet" href="css/styles.css">
+    <button class="filter-button" data-category="all">Wszystkie</button>
+    <button class="filter-button" data-category="planszowe">Planszowe</button>
+    <button class="filter-button" data-category="karciane">Karciane</button>
+    <button class="filter-button" data-category="dla-najmlodszych">Dla najmłodszych</button>
+</div>
+
+<div id="gameContainer"></div>
+
+<div class="container">
+    <h2>Dostępne Gry</h2>
+    <div class="game-list" id="game-list">
+        <!-- Ігри завантажуються через JavaScript -->
+    </div>
+</div>
+
+<div class="cart-container">
+    <div class="cart-icon">🛒 Koszyk</div>
+    <div class="cart-content" id="cart_content">
+        <ul id="cartItems"></ul>
+    </div>
+    <button id="reserveButton" onclick="redirectToCheckout()">Rezerwuj</button>
+</div>
+
+
+<div class="footer">
+    <p>&copy; 2024 Wypożyczalnia Gier. Wszystkie prawa zastrzeżone.</p>
+</div>
+</body>
+</html>

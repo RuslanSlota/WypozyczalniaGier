@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakup</title>
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+<header>
+    <h1>Zakup</h1>
+</header>
+<main>
+    <div id="guestForm" style="display: none;">
+        <h2>Zakup jako gość</h2>
+        <form>
+            <input type="text" id="guestName" placeholder="Imię" required>
+            <input type="text" id="guestSurname" placeholder="Nazwisko" required>
+            <input type="email" id="guestEmail" placeholder="Email" required>
+            <input type="tel" id="guestPhone" placeholder="Telefon" required>
+            <input type="text" id="guestStreet" placeholder="Ulica" required>
+            <input type="text" id="guestStreetNumber" placeholder="Numer ulicy" required>
+            <input type="text" id="guestApartment" placeholder="Numer mieszkania (opcjonalne)">
+            <input type="text" id="guestPostalCode" placeholder="Kod pocztowy" required>
+            <input type="text" id="guestCity" placeholder="Miasto" required>
+            <select id="guestPaymentMethod" required>
+                <option value="">Wybierz sposób płatności</option>
+                <option value="card">Karta</option>
+                <option value="cash">Gotówka</option>
+            </select>
+            <button type="button" id="checkoutGuestButton">Zakończ zakup</button>
+        </form>
+    </div>
+    <div id="registeredForm" style="display: none;">
+        <h2>Zakup jako zarejestrowany użytkownik</h2>
+        <form>
+            <input type="text" id="registeredStreet" placeholder="Ulica" required>
+            <input type="text" id="registeredStreetNumber" placeholder="Numer ulicy" required>
+            <input type="text" id="registeredApartment" placeholder="Numer mieszkania (opcjonalne)">
+            <input type="text" id="registeredPostalCode" placeholder="Kod pocztowy" required>
+            <input type="text" id="registeredCity" placeholder="Miasto" required>
+            <select id="registeredPaymentMethod" required>
+                <option value="">Wybierz sposób płatności</option>
+                <option value="card">Karta</option>
+                <option value="cash">Gotówka</option>
+            </select>
+            <button type="button" id="checkoutRegisteredButton">Zakończ zakup</button>
+        </form>
+    </div>
+</main>
+</body>
+<script src="js/checkout.js"></script>
+</html>
