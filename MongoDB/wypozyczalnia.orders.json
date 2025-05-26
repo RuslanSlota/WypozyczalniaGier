@@ -1,0 +1,242 @@
+[{
+  "_id": {
+    "$oid": "677a5ed27c53625a97855e9a"
+  },
+  "name": "John",
+  "surname": "Doe",
+  "email": "johndoe@example.com",
+  "phone": "+48650698459",
+  "address": {
+    "street": "Ulica Główna",
+    "streetNumber": "12A",
+    "apartmentNumber": "5",
+    "postalCode": "00-001",
+    "city": "Warszawa"
+  },
+  "paymentMethod": "Karta",
+  "items": [
+    {
+      "gameId": "1",
+      "quantity": 2
+    },
+    {
+      "gameId": "2",
+      "quantity": 1
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677a60d17c53625a97855e9b"
+  },
+  "name": "John",
+  "surname": "Doe",
+  "email": "johndoe@example.com",
+  "phone": "+48650698459",
+  "address": {
+    "street": "Ulica Główna",
+    "streetNumber": "12A",
+    "apartmentNumber": "5",
+    "postalCode": "00-001",
+    "city": "Warszawa"
+  },
+  "paymentMethod": "Karta",
+  "items": [
+    {
+      "gameId": "1",
+      "quantity": 2
+    },
+    {
+      "gameId": "2",
+      "quantity": 1
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677a6364ab7dbd287b7ed16f"
+  },
+  "name": "John",
+  "surname": "Doe",
+  "email": "johndoe@example.com",
+  "phone": "+48650698459",
+  "address": {
+    "street": "Ulica Główna",
+    "streetNumber": "12A",
+    "apartmentNumber": "5",
+    "postalCode": "00-001",
+    "city": "Warszawa"
+  },
+  "paymentMethod": "Karta",
+  "items": [
+    {
+      "gameId": "1",
+      "quantity": 2
+    },
+    {
+      "gameId": "2",
+      "quantity": 1
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677a63aaab7dbd287b7ed170"
+  },
+  "name": "1",
+  "surname": "2",
+  "email": "3@dsada",
+  "phone": "666555444",
+  "address": {
+    "street": "213",
+    "streetNumber": "1231",
+    "apartmentNumber": "",
+    "postalCode": "12312",
+    "city": "12312"
+  },
+  "paymentMethod": "card",
+  "items": [
+    {
+      "gameId": "67715eec80cd6846fba36af2",
+      "quantity": 2
+    },
+    {
+      "gameId": "67715e6980cd6846fba36aef",
+      "quantity": 4
+    },
+    {
+      "gameId": "67715ea280cd6846fba36af0",
+      "quantity": 3
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677a6a998eb1e427647c7f17"
+  },
+  "userId": "67716b9dffaa6701d982e59b",
+  "address": {
+    "street": "Ulica",
+    "streetNumber": "2",
+    "apartmentNumber": "2",
+    "postalCode": "41222",
+    "city": "Super"
+  },
+  "paymentMethod": "card",
+  "items": [
+    {
+      "gameId": "67715ecf80cd6846fba36af1",
+      "quantity": 2
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677a6c918eb1e427647c7f1a"
+  },
+  "name": "Jan",
+  "surname": "Kowalski",
+  "email": "test3@example.com",
+  "phone": "666555444",
+  "address": {
+    "street": "213",
+    "streetNumber": "1231",
+    "apartmentNumber": "2",
+    "postalCode": "12312",
+    "city": "12312"
+  },
+  "paymentMethod": "card",
+  "items": [
+    {
+      "gameId": "67715eec80cd6846fba36af2",
+      "quantity": 1
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "677bd5e27ea0db02ee190e4c"
+  },
+  "name": "Jan",
+  "surname": "Kowalski",
+  "email": "test3@example.com",
+  "phone": "666555444",
+  "address": {
+    "street": "213",
+    "streetNumber": "1231",
+    "apartmentNumber": "2",
+    "postalCode": "12312",
+    "city": "12312"
+  },
+  "paymentMethod": "cash",
+  "items": [
+    {
+      "gameId": "67715eec80cd6846fba36af2",
+      "quantity": 1
+    },
+    {
+      "gameId": "67715ecf80cd6846fba36af1",
+      "quantity": 3
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "6782be42b8c56d086397fdf6"
+  },
+  "name": "Jan",
+  "surname": "Kowalski",
+  "email": "test3@example.com",
+  "phone": "666555444",
+  "address": {
+    "street": "213",
+    "streetNumber": "1231",
+    "apartmentNumber": "2",
+    "postalCode": "12312",
+    "city": "12312"
+  },
+  "paymentMethod": "card",
+  "items": [
+    {
+      "gameId": "67715ecf80cd6846fba36af1",
+      "quantity": 8
+    },
+    {
+      "gameId": "67715eec80cd6846fba36af2",
+      "quantity": 2
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+},
+{
+  "_id": {
+    "$oid": "6782c8a6b2639d7dbbf15d23"
+  },
+  "userId": "67716b9dffaa6701d982e59b",
+  "address": {
+    "street": "a",
+    "streetNumber": "a",
+    "apartmentNumber": "a",
+    "postalCode": "a",
+    "city": "a"
+  },
+  "paymentMethod": "card",
+  "items": [
+    {
+      "gameId": "67715ecf80cd6846fba36af1",
+      "quantity": 14
+    },
+    {
+      "gameId": "67715eec80cd6846fba36af2",
+      "quantity": 1
+    }
+  ],
+  "_class": "org.example.wypozyczalnia.gier.Order"
+}]

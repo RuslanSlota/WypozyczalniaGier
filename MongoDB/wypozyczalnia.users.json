@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "67714dcf628c936cd3da4464"
+  },
+  "email": "test@example.com",
+  "password": "$2a$10$273zZDzqGHc2JtLIUcPavemldH5nwKsY1wjvPjp/YvYn5VNmJkwOm",
+  "name": "John",
+  "surname": "Doe",
+  "phone": "+48650698459",
+  "sex": "Mężczyzna",
+  "dateofbirth": {
+    "$date": "2000-01-01T00:00:00.000Z"
+  },
+  "_class": "org.example.wypozyczalnia.gier.User"
+},
+{
+  "_id": {
+    "$oid": "67716223c910ad5b54cdcf86"
+  },
+  "email": "test1@example.com",
+  "password": "$2a$10$JcKNnU4XXVWiZVeyTT3toe7YdL121zOV3STHcMo30GApO0QNbsxD.",
+  "name": "John",
+  "surname": "Doe",
+  "phone": "+48650698459",
+  "sex": "Male",
+  "dateofbirth": {
+    "$date": "2000-01-01T00:00:00.000Z"
+  },
+  "_class": "org.example.wypozyczalnia.gier.User"
+},
+{
+  "_id": {
+    "$oid": "67716b3d2bc5bf75ba16b216"
+  },
+  "email": "test3@example.com",
+  "password": "$2a$10$DtelnO.CwhJbKvEcDDDJTOkPzPejy74h5/h5T6ZPfpUiU/xTrz8zO",
+  "name": "Jan",
+  "surname": "Kowalski",
+  "phone": "+48666555444",
+  "sex": "Male",
+  "dateofbirth": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "_class": "org.example.wypozyczalnia.gier.User"
+},
+{
+  "_id": {
+    "$oid": "67716b9dffaa6701d982e59b"
+  },
+  "email": "test4@example.com",
+  "password": "$2a$10$MrFKIcA3YRiRKtW/5zl3Ze0BmloeioqBSie7W6KTkICquoIuHgj0a",
+  "name": "Jan",
+  "surname": "Kowalski",
+  "phone": "+48666555444",
+  "sex": "Male",
+  "dateofbirth": {
+    "$date": "2024-12-28T00:00:00.000Z"
+  },
+  "_class": "org.example.wypozyczalnia.gier.User"
+},
+{
+  "_id": {
+    "$oid": "6782c881b2639d7dbbf15d22"
+  },
+  "email": "fdsfds@o2.pl",
+  "password": "$2a$10$FPWDnY0E6rn2ee/KNrLsvORinU2AnIbfTUH.dXFsCpDSaZlCZtsZ6",
+  "name": "w",
+  "surname": "w",
+  "phone": "sssssssssss",
+  "sex": "Female",
+  "dateofbirth": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "_class": "org.example.wypozyczalnia.gier.User"
+}]

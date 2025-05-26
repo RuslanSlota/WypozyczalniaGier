@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "67715cce678f100a76eddc90"
+  },
+  "title": "Catan",
+  "description": "Strategiczna gra planszowa o budowaniu osad i handlu.",
+  "category": "planszowe",
+  "price": 25,
+  "imageUrl": "images/catan.png",
+  "_class": "org.example.wypozyczalnia.gier.Game"
+},
+{
+  "_id": {
+    "$oid": "67715e6980cd6846fba36aef"
+  },
+  "title": "Dixit",
+  "description": "Kreatywna gra karciana z pięknymi ilustracjami.",
+  "category": "karciane",
+  "price": 25,
+  "imageUrl": "images/dixit.png",
+  "_class": "org.example.wypozyczalnia.gier.Game"
+},
+{
+  "_id": {
+    "$oid": "67715ea280cd6846fba36af0"
+  },
+  "title": "Ticket to Ride",
+  "description": "Planszowa gra o budowie tras kolejowych.",
+  "category": "planszowe",
+  "price": 35,
+  "imageUrl": "images/ticket to ride.png",
+  "_class": "org.example.wypozyczalnia.gier.Game"
+},
+{
+  "_id": {
+    "$oid": "67715ecf80cd6846fba36af1"
+  },
+  "title": "Memory",
+  "description": "Gra rozwijająca pamięć dla najmłodszych.",
+  "category": "dla-najmlodszych",
+  "price": 15,
+  "imageUrl": "images/memory.png",
+  "_class": "org.example.wypozyczalnia.gier.Game"
+},
+{
+  "_id": {
+    "$oid": "67715eec80cd6846fba36af2"
+  },
+  "title": "UNO",
+  "description": "Klasyczna gra karciana dla całej rodziny.",
+  "category": "karciane",
+  "price": 20,
+  "imageUrl": "images/uno.png",
+  "_class": "org.example.wypozyczalnia.gier.Game"
+}]
